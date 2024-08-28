@@ -1,0 +1,9 @@
+@import '../../../Dashboard/vendors/simplebar/simplebar.min.css';
+@import '../../../Dashboard/unicons.iconscout.com/release/v4.0.8/css/line.css';
+@import '../../../Dashboard/assets/css/theme-rtl.min.css';
+@import '../../../Dashboard/assets/css/theme.min.css';
+@import '../../../Dashboard/assets/css/user-rtl.min.css';
+@import '../../../Dashboard/assets/css/user.min.css';
+@import '../../../Dashboard/vendors/leaflet/leaflet.css';
+@import '../../../Dashboard/vendors/leaflet.markercluster/MarkerCluster.css';
+@import '../../../Dashboard/vendors/leaflet.markercluster/MarkerCluster.Default.css';
