@@ -33,9 +33,9 @@
             "styles": [
               "src/styles.css",
               "src/assets/css/theme.min.css",
-              "src/assets/vendor/swiper/swiper-bundle.min.css",
-              "src/assets/vendor/aos/dist/aos.css",
-              "src/assets/icons/around-icons.min.css"
+              {"input": "src/assets/vendor/swiper/swiper-bundle.min.css", "bundleName": "swiper"},
+              {"input": "src/assets/vendor/aos/dist/aos.css", "bundleName": "aos"},
+              {"input": "src/assets/icons/around-icons.min.css", "bundleName": "around-icons"}
             ],
             "scripts": [
               "src/assets/js/theme-switcher.js",
@@ -49,13 +49,6 @@
             "prerender": true,
             "ssr": {
               "entry": "server.ts"
-            },
-            "stylePreprocessorOptions": {
-              "includePaths": [
-                "src/assets",
-                "src/assets/vendor",
-                "src/assets/icons"
-              ]
             }
           },
           "configurations": {
@@ -118,9 +111,9 @@
             "styles": [
               "src/styles.css",
               "src/assets/css/theme.min.css",
-              "src/assets/vendor/swiper/swiper-bundle.min.css",
-              "src/assets/vendor/aos/dist/aos.css",
-              "src/assets/icons/around-icons.min.css"
+              {"input": "src/assets/vendor/swiper/swiper-bundle.min.css", "bundleName": "swiper"},
+              {"input": "src/assets/vendor/aos/dist/aos.css", "bundleName": "aos"},
+              {"input": "src/assets/icons/around-icons.min.css", "bundleName": "around-icons"}
             ],
             "scripts": [
               "src/assets/js/theme-switcher.js",
@@ -129,14 +122,7 @@
               "src/assets/vendor/aos/dist/aos.js",
               "src/assets/js/theme.min.js",
               "src/assets/js/customizer.min.js"
-            ],
-            "stylePreprocessorOptions": {
-              "includePaths": [
-                "src/assets",
-                "src/assets/vendor",
-                "src/assets/icons"
-              ]
-            }
+            ]
           }
         }
       }
