@@ -18,7 +18,7 @@ export const routes: Routes = [
   { path: 'blog', component: BlogComponent },
   { path: 'web-studio', component: WebStudioComponent },
   { path: 'mobile-app', component: MobileAppComponent },
-  { path: '**', redirectTo: '' }
+  { path: '**', redirectTo: '', pathMatch: 'full' }
 ];
 
 @NgModule({
